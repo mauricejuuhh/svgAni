@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 2em;
+}
+.deel {
+  padding: 2em;
+position: relative;
+}
+.deel__kader {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.deel__rechthoek {
+  stroke: #39a;
+  stroke-width: 10px;
+  fill: transparent;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
